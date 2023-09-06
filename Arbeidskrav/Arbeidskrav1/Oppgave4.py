@@ -3,12 +3,12 @@
 print("__Kalkulator__\n")
 # Har en while True løkke her siden løkken kan kjøre så lenge vi har en avsluttningsknapp.
 while True:
-    print("Velg en av de fire regneartene:\n"
-        "1. Addisjon (Pluss)\n"
-        "2. Substraksjon (Minus)\n"
-        "3. Multiplikasjon\n"
-        "4. Divisjon\n"
-        "5. Avslutt\n")
+    print("Velg en av de fire regneartene: \n"
+        "1. Addisjon (Pluss) \n"
+        "2. Substraksjon (Minus) \n"
+        "3. Multiplikasjon \n"
+        "4. Divisjon \n"
+        "5. Avslutt \n")
     # Jeg spør brukeren av kalkulatoren om hvilken operasjon han har lyst å utføre og lagrer det i en variabel.
     brukerValg = int(input("Velg en av de fire regneartene her: "))
 
